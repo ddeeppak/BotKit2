@@ -1,5 +1,5 @@
-var botId = "st-12345";
-var botName = "testBot";
+var botId = "st-d9c7716c-b10b-5650-9e1e-aa3370e90da2";
+var botName = "Triana Travel_deepakkologic@gmail.com_1";
 var sdk = require("./lib/sdk");
 
 /*
@@ -15,7 +15,7 @@ module.exports = {
 
     on_user_message : function(requestId, data, callback) {
         if (data.message === "Hi") {
-            data.message = "Hello";
+            data.message = "Hello Deepak";
             //Sends back 'Hello' to user.
             return sdk.sendUserMessage(data, callback);
         } else if(!data.agent_transfer){
